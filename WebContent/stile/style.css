@@ -1,0 +1,250 @@
+@charset "ISO-8859-1";
+html {
+	height: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: normal .80em 'trebuchet ms', arial, sans-serif;
+	background-image: url(../foto/sfongo.jpg);
+	background-repeat: repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+h1{
+	color:#ffd700;
+	text-align: center;
+	padding: 30px;
+}
+h1.a{
+	text-align: left;
+	color:#ffd700;
+	padding: 20px;
+}
+h1.b{
+	color:#ffd700;
+	text-align: center;
+	padding: 30px;
+}
+h2.a{
+	text-align: center;
+	padding: 10px;
+}
+h2.b{
+	color:#ffd700;
+	text-align: center;
+	padding: 5px;
+}
+h2.c{
+	color:gold;
+	padding: 0 0 0 30px;
+}
+a{
+	color:blue;
+	text-decoration:none;
+}
+a.b{
+	color:#ffd700;
+}
+input.text{
+	margin: 10px 10px 30px 30px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75) inset;
+}
+input.number{
+	margin: 10px 10px 30px 5px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75) inset;
+	width:40px;
+}
+input.number2{
+	margin: 5px 5px 5px 5px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75) inset;
+	width:40px;
+}
+form.aggiungi{
+	background-color:black;
+	margin: 0 400px 0 400px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+p{
+	font: normal 175% 'trebuchet ms', arial, sans-serif;
+	color:red;
+	padding: 20px;
+}
+ul {
+	margin: 2px 0 22px 17px;
+}
+
+ul li {
+	list-style-type: circle;
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+}
+section#menubar {
+	margin-left:35px;
+	margin-right:40px;
+	width: 1279px;
+	height: 72px;
+	padding: 0; 
+	background-color: green;
+}
+ul#menu, ul#menu li ,ul#menu li ul li{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+ul#menu li ,ul#menu li ul li{
+	list-style: none;
+}
+ul#menu li a:hover, ul#menu li.selected a , ul#menu li.selected a:hover{
+	color: #c0c0c0;
+	background-color: #004000;
+}
+ul#menu li a ,ul#menu li ul li a{
+	letter-spacing: 0.1em;
+	font: normal 100% 'lucida sans unicode', arial, sans-serif;
+	display: block;
+	float: left;
+	height: 37px;
+	padding: 29px 26px 6px 26px;
+	text-align: center;
+	color: #ffd700;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: transparent;
+}
+div {
+	background-color:white;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+footer{
+	text-align:center;
+	font: normal 100% 'lucida sans unicode', arial, sans-serif;
+	background-color:#c0c0c0;
+	margin-left:35px;
+	margin-right:35px;
+	width: 1279px;
+	height: 52px;
+	letter-spacing: 0.1em;
+	padding: 25px 0 5px 0;
+	color:blue;
+}
+table.c{
+	margin-left:20px;
+	margin-right:20px;
+	border: 1px solid black;
+	border-spacing: 0;
+}
+table.d{
+	margin-left:545px;
+	margin-right:20px;
+	border: 1px solid black;
+	border-spacing: 0;
+}
+table.e{
+	margin-left:515px;
+	margin-right:20px;
+	border: 1px solid black;
+	border-spacing: 0;
+}
+table.f{
+	margin-left:400px;
+	margin-right:20px;
+	border: 1px solid black;
+	border-spacing: 0;
+}
+table.g{
+	margin-left:360px;
+	margin-right:20px;
+	border: 1px solid black;
+	border-spacing: 0;
+}
+tr.c{
+	text-align:center;
+	background-color:red;
+	color:black;
+	border-spacing: 0;
+}
+td{
+	border: 1px solid black;
+}
+td.a{
+	background-color:green;
+}
+th{
+		border: 1px solid black;
+}
+input.b{
+	margin: 5px 0 0 5px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75) inset;
+	width:25px;
+	text-align:center;
+}
+input.submi{
+	margin: 5px 0 0 25px;
+	background-color:blue;
+	border: 1px solid black;
+	color:gold;
+	width:200px;
+	height:50px;
+	font: normal 1.90em 'trebuchet ms', arial, sans-serif;
+}
+input.submi2{
+	margin: 50px 0 0 550px;
+	background-color:blue;
+	border: 1px solid black;
+	color:gold;
+	width:200px;
+	height:50px;
+	font: normal 1.90em 'trebuchet ms', arial, sans-serif;
+}
+input.submi3{
+	margin: 50px 0 0 570px;
+	background-color:blue;
+	border: 1px solid black;
+	color:gold;
+	width:200px;
+	height:50px;
+	font: normal 1.90em 'trebuchet ms', arial, sans-serif;
+}
+input.submi4{
+	margin: 50px 0 0 510px;
+	background-color:blue;
+	border: 1px solid black;
+	color:gold;
+	width:350px;
+	height:50px;
+	font: normal 1.90em 'trebuchet ms', arial, sans-serif;
+}
+input.subm{
+	margin: 0 5px 0 5px;
+	background-color:green;
+	font: normal 1.99em 'trebuchet ms', arial, sans-serif;
+	border:0;
+	width:98px;
+	height:50px;
+}
+input.subm2{
+	margin: 0 0 0 0;
+	background-color:green;
+	font: normal 1.99em 'trebuchet ms', arial, sans-serif;
+	border:0;
+	width:160px;
+	height:50px;
+}
